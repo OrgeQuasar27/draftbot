@@ -1,0 +1,61 @@
+la description
+Voici le processus d'invitation et d'installation de DraftBot.
+Installation
+Invitation de DraftBot
+Commençons par inviter DraftBot sur le serveur.
+Vous pouvez l'inviter depuis le site suivant : www.draftbot.fr
+
+Cliquez sur « Ajouter à Discord »
+
+Connectez-vous si nécessaire puis choisissez votre serveur.  Enfin, cliquez sur « Autoriser ».
+
+{% hint style="success" %} Félicitations, 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 est maintenant ajouté à votre serveur ! {% indice de fin %}
+
+Installation de DraftBot
+Une fois DraftBot ajouté à votre serveur, il faut lui donner les permissions dont il a besoin.
+Commencez par vous rendre dans les paramètres de votre serveur, dans la catégorie « Rôles » :
+
+
+
+Activez les paramètres du rôle dont 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 a besoin pour effectuer les commandes que vous souhaitez utiliser. Le plus simple étant de lui donner la permission « Administrateur » :
+
+Autorisations	Facultatifs	Essentielles	Recommandées
+Afficher séparément	⚪		
+Mentionner ce rôle	⚪		
+Administrateur	⚪		🔴
+Voir les logs	⚪		
+Gérer le serveur			
+Gérer les rôles		⚫	🔴
+Gérer les salons		⚫	🔴
+Expulseur des membres		⚫	🔴
+Bannier des membres		⚫	🔴
+Créer une invitation	⚪		
+Changeur de pseudo	⚪		
+Gérer les pseudos		⚫	🔴
+Gérer les émojis	⚪		
+Gérer les Webhooks		⚫	🔴
+Lire & voir les salons		⚫	🔴
+Envoyer des messages		⚫	🔴
+Envoyer des messages de synthèse vocale	⚪		
+Gérer les messages		⚫	🔴
+Intégrer des privilèges		⚫	🔴
+Joindre des fichiers		⚫	🔴
+Voir les anciens messages		⚫	🔴
+Mentionner @tout le monde	⚪		
+Utiliser des émojis externes		⚫	🔴
+Se connecter en vocal		⚫	🔴
+Parler en vocal		⚫	🔴
+Couper le micro de membres	⚪		
+Mettre en levain	⚪		
+Déplacer des membres	⚪		
+Utiliser la détection de voix	⚪		
+Voix prioritaire	⚪		
+{% hint style="warning" %} Si 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 n'est pas Administrateur, il faudra également penser à lui attribuer les autorisations dans les salons où il devra agir. {% indice de fin %}
+
+Si vous souhaitez que 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 puisse attribuer des rôles, spécifier-vous que ceux-ci soient inférieurs dans la hiérarchie des rôles du serveur :
+
+DraftBot est défini en dessous du rôle Premier dans la hiérarchie des rôles.
+
+Dans notre cas par exemple, 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 sera capable d'attribuer les Deuxième, Troisième et Quatrième rôles, mais ne pourra pas donner le Premier rôle.
+
+{% hint style="success" %} Grâce à cette installation et si vous avez choisi de faire confiance à 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 en le appelle Administrateur, vous ne devriez pas rencontrer de problème. L'installation primaire est à présent terminée, vous pouvez passer à la « Configuration ». {% indice de fin %}
